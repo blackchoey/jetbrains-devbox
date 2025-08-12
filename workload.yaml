@@ -14,3 +14,7 @@ tasks:
     description: Install IntelliJ IDEA Community Edition
     parameters:
       package: JetBrains.IntelliJIDEA.Community
+  - name: winget
+    description: Install Visual Studio Code
+    parameters:
+      package: Microsoft.VisualStudioCode
