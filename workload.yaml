@@ -5,7 +5,7 @@ tasks:
     description: Install Node.js LTS
     parameters:
       package: OpenJS.NodeJS.LTS
-      version: 20
+      version: 20.19.2
   - name: winget
     description: Install Git
     parameters:
