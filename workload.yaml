@@ -7,6 +7,10 @@ tasks:
       package: OpenJS.NodeJS.LTS
       version: 20.19.2
   - name: winget
+    description: Install JDK 17 (Eclipse Temurin)
+    parameters:
+      package: EclipseAdoptium.Temurin.17.JDK
+  - name: winget
     description: Install IntelliJ IDEA Community Edition
     parameters:
       package: JetBrains.IntelliJIDEA.Community
