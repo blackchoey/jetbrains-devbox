@@ -2,10 +2,6 @@ $schema: "1.0"
 name: "jetbrains-development-environment"
 tasks:
   - name: winget
-    description: Install Microsoft OpenJDK 21
-    parameters:
-      package: Microsoft.OpenJDK.21
-  - name: winget
     description: Install Node.js LTS
     parameters:
       package: OpenJS.NodeJS.LTS
